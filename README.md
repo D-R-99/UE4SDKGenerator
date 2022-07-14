@@ -24,13 +24,4 @@ Currently Tested on 64Bit Version of BGMI, But can support other games that have
 ## Notes
 
 * It will Start generating sdk after 5 second delay, at that time maybe not all objects loaded, so less files will be generated, Increase Delay in Main.cpp to Generate SDK in Lobby.
-* Generator.log This file contains the log messages the generator outputs. NamesDump.txt This file is generated if ShouldDumpArrays() is true and it contains all names available in the names array. ObjectsDump.txt This file is generated if ShouldDumpArrays() is true and it contains all objects names available in the objects array. SDK.hpp This file contains all includes you need for the SDK.
 * Most of the time you don't need all the cpp files. Add Needed Headers in SDK.hpp.
-
-## ToDo
-
-* Adding Pattern scan for ProcessEvent.
-* Adding Missing Field like "ComponentToWorld".
-* Fix FunctionFlags not dumped in xxx_functions.cpp.
-
-if you have a suggestion on how to improve this sdk, please open an issue.
